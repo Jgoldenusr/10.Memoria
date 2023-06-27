@@ -1,7 +1,9 @@
+import "./custom-styles/custom-styles.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Stack from "react-bootstrap/Stack";
 import React, { useState, useEffect } from "react";
 import { FlagsGrid, Header, Score, Footer } from "./components/components.js";
 import uniqid from "uniqid";
-import "./styles/styles.css";
 
 const flagCodes = [
   "AD",
@@ -258,8 +260,9 @@ function App() {
   };
 
   const randomizeFlags = function () {
+    const MAX_FLAGS = 15;
     let flagArr = [];
-    for (let i = 0; i < 25; i++) {
+    for (let i = 0; i < MAX_FLAGS; i++) {
       flagArr.push({
         code: flagCodes[randomChoice(0, 240)],
         id: uniqid(),
@@ -290,12 +293,12 @@ function App() {
 
   return (
     /* jshint ignore:start */
-    <div className="main">
+    <Stack direction="vertical" className="min-vh-100 TenbyFive">
       <Header title="Memoria" />
       <Score currentScore={currentScore} maximumScore={maximumScore} />
       <FlagsGrid evtListener={onFlagClick} flagsArray={flags} />
       <Footer />
-    </div>
+    </Stack>
     /* jshint ignore:end */
   );
 }
