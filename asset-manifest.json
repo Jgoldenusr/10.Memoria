@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/10.Memoria/static/css/main.c5ad4300.css",
-    "main.js": "/10.Memoria/static/js/main.2c8e5dc0.js",
+    "main.css": "/10.Memoria/static/css/main.3d2e9277.css",
+    "main.js": "/10.Memoria/static/js/main.4e8d4d73.js",
     "static/media/tenby-five-webfont.svg": "/10.Memoria/static/media/tenby-five-webfont.f342c7196aeb64799bd7.svg",
     "static/media/tenby-five-webfont.eot": "/10.Memoria/static/media/tenby-five-webfont.8ff12776e5c5b61f6485.eot",
     "static/media/tenby-five-webfont.ttf": "/10.Memoria/static/media/tenby-five-webfont.8df3625f2b4dacfa8793.ttf",
@@ -9,11 +9,11 @@
     "static/media/tenby-five-webfont.otf": "/10.Memoria/static/media/tenby-five-webfont.80eaa68d9c86152b4655.otf",
     "static/media/tenby-five-webfont.woff2": "/10.Memoria/static/media/tenby-five-webfont.3fbeae1cbc4432d6a524.woff2",
     "index.html": "/10.Memoria/index.html",
-    "main.c5ad4300.css.map": "/10.Memoria/static/css/main.c5ad4300.css.map",
-    "main.2c8e5dc0.js.map": "/10.Memoria/static/js/main.2c8e5dc0.js.map"
+    "main.3d2e9277.css.map": "/10.Memoria/static/css/main.3d2e9277.css.map",
+    "main.4e8d4d73.js.map": "/10.Memoria/static/js/main.4e8d4d73.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5ad4300.css",
-    "static/js/main.2c8e5dc0.js"
+    "static/css/main.3d2e9277.css",
+    "static/js/main.4e8d4d73.js"
   ]
 }
